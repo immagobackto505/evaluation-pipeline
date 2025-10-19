@@ -35,7 +35,7 @@ Evaluate LLM responses to instruction–input pairs and export metrics (chrF++, 
 
 ## Data format
 
-Place a `Dataset.csv` in the repo root with at least these columns:
+Place a `Thai_Chinese_Dataset.csv` in the repo root with at least these columns:
 
 | column        | description                                  |
 | ------------- | -------------------------------------------- |
@@ -44,7 +44,7 @@ Place a `Dataset.csv` in the repo root with at least these columns:
 | `ref`         | reference/ground-truth text                  |
 | `type`        | filename or tag used for domain grouping     |
 
-> The script expects `Dataset.csv` at the project root and writes outputs under `respond_batch/` and `outputs/`. 
+> The script expects `Thai_Chinese_Dataset.csv` at the project root and writes outputs under `respond_batch/` and `outputs/`. 
 
 ---
 

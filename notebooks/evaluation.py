@@ -5,7 +5,7 @@ import os
 import glob
 from google import genai
 
-Instruction = pd.read_csv('Dataset.csv')
+Instruction = pd.read_csv('Thai_Chinese_Dataset.csv')
 
 # GET RESPONSES FROM GEMINI-2.5-FLASH
 
