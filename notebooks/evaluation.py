@@ -10,7 +10,7 @@ Instruction = pd.read_csv('Thai_Chinese_Dataset.csv')
 # GET RESPONSES FROM GEMINI-2.5-FLASH
 
 print("Generating responses using Gemini-2.5-flash...")
-client = genai.Client(api_key='AIzaSyBVpv0baXVr9WBQ7scPkgpQx71MwKvFuxQ')
+client = genai.Client(api_key='YOUR_KEY')
 
 start_index = 0
 batch_num = 1
