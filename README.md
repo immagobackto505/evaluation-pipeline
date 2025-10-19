@@ -88,7 +88,7 @@ python notebooks/evaluation.py
 
 ### What happens
 
-1. Loads `Dataset.csv`
+1. Loads `Thai_Chinese_Dataset.csv`
 2. Calls **Gemini 2.5 Flash** to generate `respond` for each row
 
    * Saves every 10 rows → `respond_batch/batch_{i}.csv`  
